@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    font-family: Work Sans ;
+}
+
+
+/* header*/
+.header{
+    background-image: url(/images/banner/banner1.png);
+    width: 1600px;
+    height: 808px;
+    background-repeat: no-repeat;
+}
+.banner{
+    text-align: right;
+    padding: 216px 230px 364px 845px; 
+    
+}
+.banner-title{
+    font-weight: 700;
+    font-size:65px;
+    line-height: 76px;   
+}
+.banner-description{
+    font-weight:400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    height: 64px;
+    width: 160px;
+    color:#FFFFFF;
+    padding: 21px 25px 20px 26px;
+    background: #F15B22;
+    border-radius: 5px;
+    border:none;
+    margin-top: 32px;
+}
+/* end of header */
+
+
+/* Previous year section */
+.previous-year{
+    display: flex;
+}
+.failures{
+     margin-top: 369px;
+     margin-left:87px;
+     margin-right: 322px;
+}
+ul{
+    list-style-type: none;
+} 
+.failures-image{
+    margin-top: 107px;
+    margin-left: 206px;
+}
+.failures-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+.failures-description{
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+/* end of Previous year section*/
+
+
+/* my plans section*/
+.my-plans{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.plans-title{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 130px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+.plans-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plans-description1, .plans-description2, .plans-description3, .plans-description4{
+    margin-right: 90px;
+    line-height: 25px;
+}
+/* end of my plans section */
+
+
+/* about me section*/
+.about {
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title {
+   
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.section-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color:#474747;
+}
+/* end of about me section */
+
+
+/*linear gradient section*/
+#gradient { 
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url("/images/gradient1.png"), url("/images/watch.png");
+    background-blend-mode: multiply;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+  }
+.gradient-title-1{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-top: 59px;
+    padding-left: 64px;
+}
+.gradient-title-2{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-left: 64px;
+}
+.btn-secondary{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    height: 64px;
+    width: 160px;
+    color:#F15B22;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border:none;
+    margin-top: 24px;
+    margin-left: 65px;
+}
+/*end of linear gradient section */
+
+
+/* footer */
+.contact{
+    display: flex;
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+    color: #FFFFFF;
+    padding-top: 130px;
+    padding-left: 230px;
+}
+.f-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.f-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 15px;
+} 
+.email, .phone{
+    padding-bottom: 15px;
+}
+.subscribe{
+    padding-left: 220px;
+}
+.sub-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    padding-bottom: 31px;
+}
+input[type="email"]{
+    margin-bottom: 24px;
+    border: 2px solid white;
+    width: 100%;
+    padding:18px 30px;
+    border-radius: 10px;
+    background: #151414;
+    color: #FFFFFF;
+    
+}
+input[type="submit"]{
+    width: 170.11px;
+height: 64px;
+border-radius: 10px;
+color:#F15B22
+}
+/* end of footer */
